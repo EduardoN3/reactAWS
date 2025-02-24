@@ -3,7 +3,7 @@ const awsconfig = {
     endpoints: [
         {
         name: "MiAPI",
-        endpoint: "http://3.89.75.199:5000/users",
+        endpoint: "http://3.89.75.199:5000",
         },
     ],
     },
