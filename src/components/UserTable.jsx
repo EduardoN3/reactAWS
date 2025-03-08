@@ -6,7 +6,7 @@ const [search, setSearch] = useState("");
 
 useEffect(() => {
     // Llamada a la API de EC2
-    fetch('http://3.89.75.199:5000/users') 
+    fetch('http://54.160.217.177/users') 
     .then(response => response.json())
     .then(data => setUsers(data))
     .catch((err) => console.error("Error fetching users:", err));
